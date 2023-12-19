@@ -1,11 +1,11 @@
 window.onload = function() {
     let name = "";
     while (!name) {
-        name = prompt("Введи своє ім'я");
+        name = prompt("Р’РІРµРґРё СЃРІРѕС” С–Рј'СЏ");
         if (name === null) {
             continue;
         }
         name = name.trim();
     }
-    document.getElementById("greeting").innerHTML = 'Вітаю, '+name+', на моїй сторінці!';
+    document.getElementById("greeting").innerHTML = 'Р’С–С‚Р°СЋ, '+name+', РЅР° РјРѕС—Р№ СЃС‚РѕСЂС–РЅС†С–!';
 };
